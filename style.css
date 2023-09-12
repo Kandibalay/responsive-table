@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+}
+table {
+  background-color: rgb(100, 107, 60);
+}
+.odd td {
+  background: #fff;
+  padding: 10px;
+  color: rgb(102, 75, 92);
+  font-weight: bold;
+}
+.even td {
+  background: rgb(224, 213, 213);
+  color: #655f5f;
+  padding: 10px;
+  font-weight: bold;
+}
+th {
+  font-size: 22px;
+  background: rgb(100, 107, 60);
+  color: #f8f7f9;
+  padding: 10px;
+}
+h2 {
+  margin: 20px 0px;
+  font: 40px;
+  color: rgb(60, 57, 57);
+  text-transform: uppercase;
+  width: 540px;
+  text-align: center;
+}
+@media screen and (max-width: 740px) {
+  table {
+    width: 80vw;
+  }
+}
+@media screen and (max-width: 540px) {
+  table {
+    width: 85vw;
+  }
+  h2 {
+    font-size: 20px;
+  }
+}
